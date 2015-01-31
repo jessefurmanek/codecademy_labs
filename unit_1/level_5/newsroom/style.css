@@ -1,0 +1,159 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+	background-color:black;
+	height:90px;
+}
+
+.header .row{
+	padding-top:25px;
+}
+
+#logo{
+	width:75%;
+}
+
+#search{
+    background-color:black;
+    border-style:none;
+    border-bottom: solid #B4B4B4;
+    border-bottom-width: 1px;
+    width:200px;
+    padding: 0 0 0 0;
+    border-radius:0;
+}
+
+.header .form-control{
+	color:#1A77FF;
+
+}
+
+.header .form-group{
+	margin-left:10px;
+	
+}
+.header .btn{
+    background-color:black;
+    border-style:none;
+    border-bottom: solid #1A77FF;
+    border-bottom-width: 1px;
+    border-radius:0;
+    text-decoration:none;
+	padding:0 3 0 3;
+
+	color:white ;
+}
+
+
+
+.form-control::-webkit-input-placeholder {
+   color: #B4B4B4;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #B4B4B4;  
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #B4B4B4;  
+}
+
+.form-control:-ms-input-placeholder {  
+   color: #B4B4B4;  
+}
+
+.nav{
+	background-color:#152230;
+	color:white;
+}
+
+.nav-pills a{
+	color:white;
+}
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color:#1A77FF;
+  color:white;
+  border-radius:0;
+}
+
+.main{
+	background: url(http://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg)no-repeat;
+	background-size:cover;
+	background-position: -20% 50%;
+	height:500px;
+	color:white;
+	padding-top:50px;
+	padding-left:25px;
+}
+
+.main h1{
+	font-size:64px;
+
+}
+
+
+.main .addl-text{
+	font-size:18px;
+    font-weight:lighter;	
+}
+
+.supporting{
+	height:400px;
+	background-color:#F2F2F2;
+	padding-top:50px;
+	padding-left:25px;
+}
+.lat-news{
+	background-color:white;
+	padding: 40px 0 40px 60px;
+}
+
+.lat-news h3{
+	padding-bottom:20px;
+}
+
+.upcoming{
+	background-color:#152230;
+	color:white;
+	padding: 40px 0 40px 60px;
+
+}
+
+.upcoming h3{
+	padding-bottom:20px;
+}
+
+.banner{
+	padding: 40px 0 40px 0;
+	background-color:#F2F2F2;
+}
+
+.footer{
+	padding: 40px 0 60px 0;	
+	background-color:black;
+}
+
+
+.footer a{
+	text-decoration:none;
+	color:white;
+	padding-right:20px;
+}
+
+.footer li{
+	list-style-type:none;
+	color:white
+}

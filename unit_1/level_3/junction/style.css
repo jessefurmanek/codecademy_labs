@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  background:url(http://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg)no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  background-position: 10% 10%;
+}
+
+.container {
+  width:940px;
+}
+
+/* Header */
+.header {
+  background-color:rgba(0,0,0,.5);
+  height:11%;
+}
+
+.header ul{
+    margin-top:20px;
+    padding-left:180px;
+    list-style-type: none;
+}
+
+.header img{
+    height:30;
+   
+}
+
+.header li{
+    display:inline;  
+    color:white;
+    padding:11px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background-color: transparent;
+  color:white;
+  text-align:center;
+}
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  color:white;
+  text-align:center;
+}
+
+.supporting img{
+  height:100px;
+ 
+}
+
+.btn{
+  background-color:rgba(0,255,188,0.5);
+  color:white;
+  margin-top:50px;
+  padding: 10 50 10 50;
+  text-align:center;
+}
+
